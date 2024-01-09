@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Number Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body> 
+    <main>
+      <div class="game-container">
+          <div class="game-heading">
+              <h1>Guess the Number</h1>
+              <p>Number should be between 1 to 100</p>
+              <p>You'll get 10 attempts to win the game</p>
+              <form class="game-form">
+                <fieldset>
+                <lable for="game_input">Enter the number</lable>
+                <input type="text" id="game_input" />
+                </fieldset>
+                <button type="submit" class="submit_number">Guess</button>
+              </form>
+          </div>
+          <div class="game-footer">
+            <p class="game-message"></p>
+            <p class="attempt-left"></p>
+          </div>
+      </div>
+    </main>
+  </body>
+</html>
